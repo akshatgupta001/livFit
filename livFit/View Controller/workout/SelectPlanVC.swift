@@ -10,9 +10,21 @@ import UIKit
 
 class SelectPlanVC: UIViewController {
     
+    @IBOutlet weak var beginnnerBtn: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
+    @IBOutlet weak var button4: UIButton!
+    
+    @IBOutlet weak var button5: UIButton!
+    @IBOutlet weak var button6: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+            beginnnerBtn.layer.cornerRadius = 10
+        button2.layer.cornerRadius = 10
+        button3.layer.cornerRadius = 10
+        button4.layer.cornerRadius = 10
+        button5.layer.cornerRadius = 10
+        button6.layer.cornerRadius = 10
         // Do any additional setup after loading the view.
     }
     

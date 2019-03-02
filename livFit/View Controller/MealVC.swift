@@ -10,6 +10,7 @@ import UIKit
 
 class MealVC: UIViewController {
 
+    @IBOutlet weak var addImgBtnView: UIView!
     @IBOutlet weak var item1: UIButton!
     @IBOutlet weak var item2: UIButton!
     @IBOutlet weak var item3: UIButton!
@@ -25,6 +26,8 @@ class MealVC: UIViewController {
         item2.layer.cornerRadius = item2.bounds.height/4
         item3.layer.cornerRadius = item3.bounds.height/4
         addBtn.layer.cornerRadius = addBtn.bounds.height/2
+        
+        addImgBtnView.layer.cornerRadius = addImgBtnView.bounds.height/2
         // Do any additional setup after loading the view.
     }
     
