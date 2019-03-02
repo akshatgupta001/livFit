@@ -22,7 +22,10 @@ class HomeVC: UIViewController {
     @IBOutlet weak var careView: UIView!
     @IBOutlet weak var waterView: UIView!
     @IBOutlet weak var foodView: UIView!
+    @IBOutlet weak var gameView: UIView!
     @IBOutlet weak var activityView: UIView!
+    @IBOutlet weak var play: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,8 +39,13 @@ class HomeVC: UIViewController {
         roundTheCorners(myView: foodBodyView, num: 4)
         roundTheCorners(myView: waterBodyView, num: 4)
         roundTheCorners(myView: careBodyView, num: 4)
+        let tap = UITapGestureRecognizer(target: self, action: #selector(playgame))
+        play.addGestureRecognizer(tap)
     }
-    
+    @objc func playgame(){
+        performSegue(withIdentifier: "playGame", sender: self)
+        
+    }
     
     func roundTheCorners(myView : UIView, num : Int){
         myView.clipsToBounds = true
