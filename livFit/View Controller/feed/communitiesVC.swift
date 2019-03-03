@@ -43,7 +43,14 @@ class communitiesVC: UIViewController {
     }
     
     @IBAction func tap(sender : UIButton){
-        sender.backgroundColor = UIColor.green
+        if(sender.title(for: .normal) == "Join"){
+            sender.backgroundColor = UIColor(red: 46/255, green: 204/255, blue: 113/255, alpha: 0.9)
+            sender.setTitle("Joined", for: .normal)
+        }else{
+            sender.backgroundColor = UIColor(red: 236/255, green: 240/255, blue: 241/255, alpha: 0.9)
+            sender.setTitle("Join", for: .normal)
+        }
+        
     }
     @IBAction func dismiss(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)

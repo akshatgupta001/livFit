@@ -11,6 +11,7 @@
 		E04A4224222A9EF8004BB29C /* gameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A4223222A9EF8004BB29C /* gameVC.swift */; };
 		E04A4226222AFC2B004BB29C /* diaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A4225222AFC2B004BB29C /* diaryVC.swift */; };
 		E04A4229222B2CE4004BB29C /* communitiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A4228222B2CE4004BB29C /* communitiesVC.swift */; };
+		E04A422B222B9412004BB29C /* LeaderboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A422A222B9412004BB29C /* LeaderboardVC.swift */; };
 		E075D9F42227E74800243BB8 /* workoutSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E075D9F32227E74800243BB8 /* workoutSummaryVC.swift */; };
 		E075D9F72228236400243BB8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E075D9F62228236400243BB8 /* MapKit.framework */; };
 		E075D9F92228242B00243BB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E075D9F82228242B00243BB8 /* CoreLocation.framework */; };
@@ -31,6 +32,9 @@
 		E09B9BE72226830800DCD99E /* PlanDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B9BE62226830800DCD99E /* PlanDetailVC.swift */; };
 		E09B9BEB2227098D00DCD99E /* ExerciseCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B9BE92227098D00DCD99E /* ExerciseCellTableViewCell.swift */; };
 		E09B9BEC2227098D00DCD99E /* ExerciseCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09B9BEA2227098D00DCD99E /* ExerciseCellTableViewCell.xib */; };
+		E0FA3170222BB7CF003EAF3C /* scoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA316E222BB7CF003EAF3C /* scoreCell.swift */; };
+		E0FA3171222BB7CF003EAF3C /* scoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FA316F222BB7CF003EAF3C /* scoreCell.xib */; };
+		E0FA3173222BC93F003EAF3C /* questionairreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA3172222BC93F003EAF3C /* questionairreVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,7 @@
 		E04A4223222A9EF8004BB29C /* gameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameVC.swift; sourceTree = "<group>"; };
 		E04A4225222AFC2B004BB29C /* diaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diaryVC.swift; sourceTree = "<group>"; };
 		E04A4228222B2CE4004BB29C /* communitiesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communitiesVC.swift; sourceTree = "<group>"; };
+		E04A422A222B9412004BB29C /* LeaderboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardVC.swift; sourceTree = "<group>"; };
 		E075D9F32227E74800243BB8 /* workoutSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutSummaryVC.swift; sourceTree = "<group>"; };
 		E075D9F62228236400243BB8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E075D9F82228242B00243BB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -60,6 +65,9 @@
 		E09B9BE62226830800DCD99E /* PlanDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDetailVC.swift; sourceTree = "<group>"; };
 		E09B9BE92227098D00DCD99E /* ExerciseCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCellTableViewCell.swift; sourceTree = "<group>"; };
 		E09B9BEA2227098D00DCD99E /* ExerciseCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseCellTableViewCell.xib; sourceTree = "<group>"; };
+		E0FA316E222BB7CF003EAF3C /* scoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreCell.swift; sourceTree = "<group>"; };
+		E0FA316F222BB7CF003EAF3C /* scoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = scoreCell.xib; sourceTree = "<group>"; };
+		E0FA3172222BC93F003EAF3C /* questionairreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionairreVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +150,7 @@
 				E09B9BCC2225E47400DCD99E /* LaunchScreen.storyboard */,
 				E09B9BCF2225E47400DCD99E /* Info.plist */,
 				E09B9BC72225E47300DCD99E /* livFit.xcdatamodeld */,
+				E0FA3172222BC93F003EAF3C /* questionairreVC.swift */,
 			);
 			path = livFit;
 			sourceTree = "<group>";
@@ -158,6 +167,7 @@
 				E09B9BDC2225E6D800DCD99E /* ProfileVC.swift */,
 				E09B9BE222267C8C00DCD99E /* MealVC.swift */,
 				E04A4221222A476C004BB29C /* RewardsVC.swift */,
+				E04A422A222B9412004BB29C /* LeaderboardVC.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -167,6 +177,8 @@
 			children = (
 				E09B9BE92227098D00DCD99E /* ExerciseCellTableViewCell.swift */,
 				E09B9BEA2227098D00DCD99E /* ExerciseCellTableViewCell.xib */,
+				E0FA316E222BB7CF003EAF3C /* scoreCell.swift */,
+				E0FA316F222BB7CF003EAF3C /* scoreCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -236,6 +248,7 @@
 			files = (
 				E09B9BCE2225E47400DCD99E /* LaunchScreen.storyboard in Resources */,
 				E09B9BEC2227098D00DCD99E /* ExerciseCellTableViewCell.xib in Resources */,
+				E0FA3171222BB7CF003EAF3C /* scoreCell.xib in Resources */,
 				E09B9BCB2225E47400DCD99E /* Assets.xcassets in Resources */,
 				E09B9BC62225E47300DCD99E /* Main.storyboard in Resources */,
 			);
@@ -254,11 +267,14 @@
 				E09B9BD72225E69100DCD99E /* HomeVC.swift in Sources */,
 				E09B9BE5222682EF00DCD99E /* SelectPlanVC.swift in Sources */,
 				E09B9BDD2225E6D800DCD99E /* ProfileVC.swift in Sources */,
+				E0FA3170222BB7CF003EAF3C /* scoreCell.swift in Sources */,
 				E09B9BE122267C7800DCD99E /* ActivityVC.swift in Sources */,
 				E09B9BDB2225E6C300DCD99E /* StatsVC.swift in Sources */,
 				E09B9BD92225E6AC00DCD99E /* ExploreVC.swift in Sources */,
+				E04A422B222B9412004BB29C /* LeaderboardVC.swift in Sources */,
 				E09B9BEB2227098D00DCD99E /* ExerciseCellTableViewCell.swift in Sources */,
 				E09B9BDF22267C6700DCD99E /* WorkoutPlanVC.swift in Sources */,
+				E0FA3173222BC93F003EAF3C /* questionairreVC.swift in Sources */,
 				E04A4224222A9EF8004BB29C /* gameVC.swift in Sources */,
 				E09B9BE72226830800DCD99E /* PlanDetailVC.swift in Sources */,
 				E09B9BC92225E47300DCD99E /* livFit.xcdatamodeld in Sources */,
