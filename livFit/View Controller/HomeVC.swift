@@ -39,6 +39,8 @@ class HomeVC: UIViewController {
         roundTheCorners(myView: foodBodyView, num: 4)
         roundTheCorners(myView: waterBodyView, num: 4)
         roundTheCorners(myView: careBodyView, num: 4)
+        roundTheCorners(myView: gameView, num: 2)
+        roundTheCorners(myView: play, num: 4)
         let tap = UITapGestureRecognizer(target: self, action: #selector(playgame))
         play.addGestureRecognizer(tap)
     }

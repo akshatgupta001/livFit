@@ -19,7 +19,7 @@ class ActivityVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var pauseButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
-    
+    let alert = UIAlertController(title: "Alert", message: "Workout too small to be recorded", preferredStyle: UIAlertController.Style.alert)
     
     @IBOutlet weak var timeLabel: UILabel!
     var counter = 0.0
@@ -27,6 +27,24 @@ class ActivityVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate
     var isPlaying = false
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            switch action.style{
+            case .default:
+                print("default")
+                self.dismiss(animated: true, completion: nil)
+                
+            case .cancel:
+                print("cancel")
+                self.dismiss(animated: true, completion: nil)
+                
+            case .destructive:
+                print("destructive")
+                self.dismiss(animated: true, completion: nil)
+                
+                
+            }}))
+        
          mapView.showsUserLocation = true
         if CLLocationManager.locationServicesEnabled() == true {
             if CLLocationManager.authorizationStatus() == .restricted ||
@@ -124,8 +142,11 @@ class ActivityVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate
         isPlaying = false
         counter = 0.0
         timeLabel.text = String(counter)
+        self.present(alert, animated: true, completion: nil)
+        
         
     }
+    
     
 
 }

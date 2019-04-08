@@ -12,12 +12,15 @@ import CoreLocation
 
 class gameVC: UIViewController , MKMapViewDelegate, CLLocationManagerDelegate{
 
+    @IBOutlet weak var eta: UILabel!
+    @IBOutlet weak var task: UILabel!
     @IBOutlet weak var mapView: MKMapView!
      var locationManager:CLLocationManager! = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        task.layer.cornerRadius = task.bounds.height/2
+        eta.layer.cornerRadius = eta.bounds.height/2
         mapView.showsUserLocation = true
         if CLLocationManager.locationServicesEnabled() == true {
             if CLLocationManager.authorizationStatus() == .restricted ||

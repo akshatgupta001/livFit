@@ -35,6 +35,7 @@
 		E0FA3170222BB7CF003EAF3C /* scoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA316E222BB7CF003EAF3C /* scoreCell.swift */; };
 		E0FA3171222BB7CF003EAF3C /* scoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FA316F222BB7CF003EAF3C /* scoreCell.xib */; };
 		E0FA3173222BC93F003EAF3C /* questionairreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA3172222BC93F003EAF3C /* questionairreVC.swift */; };
+		E0FA3175222BD65E003EAF3C /* sleepVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA3174222BD65E003EAF3C /* sleepVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		E0FA316E222BB7CF003EAF3C /* scoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreCell.swift; sourceTree = "<group>"; };
 		E0FA316F222BB7CF003EAF3C /* scoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = scoreCell.xib; sourceTree = "<group>"; };
 		E0FA3172222BC93F003EAF3C /* questionairreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionairreVC.swift; sourceTree = "<group>"; };
+		E0FA3174222BD65E003EAF3C /* sleepVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				E09B9BCF2225E47400DCD99E /* Info.plist */,
 				E09B9BC72225E47300DCD99E /* livFit.xcdatamodeld */,
 				E0FA3172222BC93F003EAF3C /* questionairreVC.swift */,
+				E0FA3174222BD65E003EAF3C /* sleepVC.swift */,
 			);
 			path = livFit;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				E09B9BD72225E69100DCD99E /* HomeVC.swift in Sources */,
 				E09B9BE5222682EF00DCD99E /* SelectPlanVC.swift in Sources */,
 				E09B9BDD2225E6D800DCD99E /* ProfileVC.swift in Sources */,
+				E0FA3175222BD65E003EAF3C /* sleepVC.swift in Sources */,
 				E0FA3170222BB7CF003EAF3C /* scoreCell.swift in Sources */,
 				E09B9BE122267C7800DCD99E /* ActivityVC.swift in Sources */,
 				E09B9BDB2225E6C300DCD99E /* StatsVC.swift in Sources */,

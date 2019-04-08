@@ -19,6 +19,8 @@ class StatsVC: UIViewController {
     @IBOutlet weak var dietBar: UIView!
     @IBOutlet weak var fitnessBar: UIView!
     @IBOutlet weak var rewardBtnView: UIView!
+    @IBOutlet weak var sleepBar: UIView!
+    @IBOutlet weak var sleepContainer: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,6 +33,8 @@ class StatsVC: UIViewController {
         roundTheCorners(myView: calorieContainer, num: 4)
         roundTheCorners(myView: dietContainer, num: 4)
         roundTheCorners(myView: moodContainer, num: 4)
+        roundTheCorners(myView: sleepBar, num: 4)
+        roundTheCorners(myView: sleepContainer, num: 4)
     }
     func roundTheCorners(myView : UIView, num : Int){
         myView.clipsToBounds = true
